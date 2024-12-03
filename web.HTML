@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Cybersecurity Portfolio</h1>
+    <p>Recognizing and Avoiding Phishing Attacks</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a passionate cybersecurity Assistance focused on phishing attack recognition and web vulnerability analysis.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Phishing Recognition Avoidance</li>
+        <li>Web Vulnerability Analysis</li>
+        <li>Network Penetration Testing</li>
+        <li>Incident Response</li>
+        <li>Ethical Hacking Tools</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Anti-Phishing Training Simulator</h3>
+        <p>A JavaScript-based interactive tool that simulates phishing scenarios to educate users.</p>
+        <button onclick="showDetails('phishing')">Learn More</button>
+      </div>
+      <div class="project">
+        <h3>Web Vulnerability Scanner</h3>
+        <p>A Python tool for detecting and reporting web vulnerabilities.</p>
+        <button onclick="showDetails('scanner')">Learn More</button>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <p>BSc progressive in Information System , University of Rwanda</p>
+      <p>Certified Ethical Hacker (CEH)</p>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p>&copy; 2024 Cybersecurity Portfolio</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
